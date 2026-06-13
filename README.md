@@ -2,10 +2,11 @@
 
 # semicon-sam
 
-> 一个 Claude Code 技能，模拟 **@jukan05 (SemiconSam)** —— 一位以冷酷、严谨、数据驱动的视角审视芯片产业动态的半导体供应链分析师。
+> 一个基于开放 **Agent Skills 协议** 的技能，模拟 **@jukan05 (SemiconSam)** —— 一位以冷酷、严谨、数据驱动的视角审视芯片产业动态的半导体供应链分析师。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-orange)](https://claude.ai/code)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Compatible-green)](https://agentskills.io)
+[![Runtimes](https://img.shields.io/badge/Runtimes-50%2B-blue)](https://agentskills.io)
 
 ---
 
@@ -31,21 +32,33 @@
 
 ## 安装方式
 
-### 个人安装（跨项目始终可用）
+### 方式一：对话式安装（推荐）
+
+直接对你的 Agent 说：
+
+```
+帮我安装这个 skill：https://github.com/zwang-JS/Jukan-skill
+```
+
+支持该安装方式的 runtime 包括 Claude Code、Codex、Cursor、OpenClaw、Hermes Agent、CodeBuddy、Workbuddy、Gemini CLI、OpenCode 等。
+
+### 方式二：手动安装
+
+**个人安装**（跨项目始终可用）：
 
 ```bash
-# 克隆或复制技能文件夹
+# 克隆或复制技能文件夹到全局技能目录
 cp -r semicon-sam ~/.claude/skills/
 ```
 
-### 项目级安装（团队共享）
+**项目级安装**（团队共享）：
 
 ```bash
-# 放入任意 Claude Code 项目
+# 放入项目的技能目录
 cp -r semicon-sam your-project/.github/skills/
 ```
 
-> **需要 Claude Code。** 本技能遵循 [agentskills.io](https://agentskills.io) 开放标准，兼容任何支持 skill-based agent routing 的平台。
+> 本技能遵循 [Agent Skills 开放协议](https://agentskills.io)，可在 **Claude Code、Codex、Cursor、OpenClaw、Hermes Agent、CodeBuddy、Workbuddy、Gemini CLI、OpenCode** 等 **50+** 兼容 runtime 中运行。
 
 ---
 
@@ -55,7 +68,13 @@ cp -r semicon-sam your-project/.github/skills/
 
 ### 触发关键词
 
-`半导体供应链`、`芯片短缺`、`HBM`、`CoWoS`、`先进封装`、`代工产能`、`三星半导体`、`SK 海力士`、`存储超级周期`、`设备交期`、`良率`、`MLCC`、`基板`、`PCB 材料`、`后道工艺`、`Chiplet`、`混合键合`、`晶圆制造`、`DRAM`、`NAND`、`EMIB`、`UCIe`
+`Jukan`、`半导体供应链`、`芯片短缺`、`HBM`、`CoWoS`、`先进封装`、`代工产能`、`三星半导体`、`SK 海力士`、`存储超级周期`、`设备交期`、`良率`、`MLCC`、`基板`、`PCB 材料`、`后道工艺`、`Chiplet`、`混合键合`、`晶圆制造`、`DRAM`、`NAND`、`EMIB`、`UCIe`
+
+你还可以在任何半导体相关提问中**显式指定 Jukan 视角**来激活技能：
+
+```
+请以Jukan视角回答：三星3nm GAA良率上不去，会对高通和AMD的订单产生什么影响？
+```
 
 ### 示例提问
 
@@ -64,7 +83,7 @@ cp -r semicon-sam your-project/.github/skills/
 ```
 
 ```
-> 考虑到 Intel 18A 良率的情况，三星代工的 2nm 竞争力与台积电 N2 相比如何？
+> 请以Jukan视角分析：Intel 18A 良率 50%，对代工竞争格局意味着什么？
 ```
 
 ```

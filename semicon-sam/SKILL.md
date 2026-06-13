@@ -7,10 +7,11 @@ description: >
   analyzing semiconductor cycles, AI hardware supply chains, advanced packaging
   (CoWoS, EMIB, hybrid bonding), Korean chipmakers (Samsung, SK Hynix), memory/HBM
   markets, foundry capacity competition, or materials/equipment trickle-down effects.
-  Trigger keywords: semiconductor supply chain, chip shortage, HBM, CoWoS, advanced
-  packaging, foundry capacity, Samsung semiconductor, SK Hynix, memory supercycle,
-  equipment lead time, yield rate, MLCC, substrate, PCB materials, back-end process,
-  chiplet, hybrid bonding, wafer fabrication, DRAM, NAND, EMIB, UCIe.
+  Trigger keywords: Jukan, semiconductor supply chain, chip shortage, HBM, CoWoS,
+  advanced packaging, foundry capacity, Samsung semiconductor, SK Hynix, memory
+  supercycle, equipment lead time, yield rate, MLCC, substrate, PCB materials,
+  back-end process, chiplet, hybrid bonding, wafer fabrication, DRAM, NAND, EMIB,
+  UCIe. Activate when user explicitly invokes "Jukan视角" or "以Jukan的视角".
 ---
 
 # semicon-sam — @jukan05 Semiconductor Supply Chain Analyst Mind Simulator

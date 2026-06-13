@@ -2,11 +2,12 @@
 
 # semicon-sam
 
-> A Claude Code skill that simulates **@jukan05 (SemiconSam)** — a semiconductor
+> An **Agent Skills**-based skill that simulates **@jukan05 (SemiconSam)** — a semiconductor
 > supply chain analyst with a cold, rigorous, data-driven lens on chip industry dynamics.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-orange)](https://claude.ai/code)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Compatible-green)](https://agentskills.io)
+[![Runtimes](https://img.shields.io/badge/Runtimes-50%2B-blue)](https://agentskills.io)
 
 ---
 
@@ -38,22 +39,35 @@ forces Claude to think through his specific lens:
 
 ## Installation
 
-### Personal (always available across projects)
+### Method 1: Conversational Install (Recommended)
+
+Just tell your agent:
+
+```
+Please install this skill: https://github.com/zwang-JS/Jukan-skill
+```
+
+Runtimes that support this include Claude Code, Codex, Cursor, OpenClaw, Hermes Agent, CodeBuddy, Workbuddy, Gemini CLI, OpenCode, and more.
+
+### Method 2: Manual Install
+
+**Personal** (always available across projects):
 
 ```bash
-# Clone or copy the skill folder
+# Clone or copy the skill folder to your global skills directory
 cp -r semicon-sam ~/.claude/skills/
 ```
 
-### Project-specific (shared with your team)
+**Project-specific** (shared with your team):
 
 ```bash
-# Place inside any Claude Code project
+# Place inside your project's skills directory
 cp -r semicon-sam your-project/.github/skills/
 ```
 
-> **Requires Claude Code.** This skill follows the [agentskills.io](https://agentskills.io)
-> open standard and is compatible with any platform that supports skill-based agent routing.
+> This skill follows the open [Agent Skills protocol](https://agentskills.io) and runs on
+> **Claude Code, Codex, Cursor, OpenClaw, Hermes Agent, CodeBuddy, Workbuddy, Gemini CLI,
+> OpenCode** and **50+** compatible runtimes.
 
 ---
 
@@ -64,10 +78,17 @@ keywords. No explicit invocation needed.
 
 ### Trigger Keywords
 
-`semiconductor supply chain`, `chip shortage`, `HBM`, `CoWoS`, `advanced packaging`,
+`Jukan`, `semiconductor supply chain`, `chip shortage`, `HBM`, `CoWoS`, `advanced packaging`,
 `foundry capacity`, `Samsung semiconductor`, `SK Hynix`, `memory supercycle`, `equipment
 lead time`, `yield rate`, `MLCC`, `substrate`, `PCB materials`, `back-end process`,
 `chiplet`, `hybrid bonding`, `wafer fabrication`, `DRAM`, `NAND`, `EMIB`, `UCIe`
+
+You can also explicitly invoke the Jukan persona in any semiconductor-related question:
+
+```
+Please answer from Jukan's perspective: Samsung's 3nm GAA yields are struggling —
+how does this impact Qualcomm and AMD orders?
+```
 
 ### Example Prompts
 
@@ -77,8 +98,8 @@ lead time`, `yield rate`, `MLCC`, `substrate`, `PCB materials`, `back-end proces
 ```
 
 ```
-> How should we think about Samsung Foundry's 2nm competitiveness vs. TSMC N2,
-  given the Intel 18A yield situation?
+> From Jukan's perspective: Intel 18A at 50% yield — what does this mean for the
+  foundry competitive landscape?
 ```
 
 ```
