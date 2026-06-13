@@ -10,6 +10,11 @@ desktop.ini
 .vscode/
 .idea/
 
+# AI distillation source files (local only)
+grok's output.md
+perplexity's output.md
+gemini's output.md
+
 # Claude Code local config
 .claude/
 
