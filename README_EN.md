@@ -75,14 +75,19 @@ cp -r semicon-sam your-project/.github/skills/
 ## Usage
 
 The skill activates **implicitly** when your prompt contains semiconductor supply chain
-keywords. No explicit invocation needed.
+keywords. Both English and Chinese keywords work.
 
 ### Trigger Keywords
 
-`Jukan`, `semiconductor supply chain`, `chip shortage`, `HBM`, `CoWoS`, `advanced packaging`,
-`foundry capacity`, `Samsung semiconductor`, `SK Hynix`, `memory supercycle`, `equipment
-lead time`, `yield rate`, `MLCC`, `substrate`, `PCB materials`, `back-end process`,
-`chiplet`, `hybrid bonding`, `wafer fabrication`, `DRAM`, `NAND`, `EMIB`, `UCIe`
+**English:** `Jukan`, `semiconductor supply chain`, `chip shortage`, `HBM`, `CoWoS`,
+`advanced packaging`, `foundry capacity`, `Samsung semiconductor`, `SK Hynix`,
+`memory supercycle`, `equipment lead time`, `yield rate`, `MLCC`, `substrate`,
+`PCB materials`, `back-end process`, `chiplet`, `hybrid bonding`, `wafer fabrication`,
+`DRAM`, `NAND`, `EMIB`, `UCIe`
+
+**中文：** `半导体供应链`, `芯片短缺`, `先进封装`, `代工产能`, `三星半导体`,
+`SK海力士`, `存储超级周期`, `设备交期`, `良率`, `基板`, `PCB材料`, `后道工艺`,
+`封测`, `晶圆制造`, `混合键合`, `产能`, `涨价`, `供货`, `缺货`, `存储器`
 
 You can also explicitly invoke the Jukan persona in any semiconductor-related question:
 

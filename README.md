@@ -66,11 +66,13 @@ cp -r semicon-sam your-project/.github/skills/
 
 ## 使用方式
 
-当你的提问中包含半导体供应链相关关键词时，技能会**自动隐式激活**，无需手动调用。
+当你的提问中包含半导体供应链相关关键词时，技能会**自动隐式激活**，无需手动调用。中文和英文关键词均有效。
 
 ### 触发关键词
 
-`Jukan`、`半导体供应链`、`芯片短缺`、`HBM`、`CoWoS`、`先进封装`、`代工产能`、`三星半导体`、`SK 海力士`、`存储超级周期`、`设备交期`、`良率`、`MLCC`、`基板`、`PCB 材料`、`后道工艺`、`Chiplet`、`混合键合`、`晶圆制造`、`DRAM`、`NAND`、`EMIB`、`UCIe`
+**中文：** `Jukan`、`半导体供应链`、`芯片短缺`、`先进封装`、`代工产能`、`三星半导体`、`SK海力士`、`存储超级周期`、`设备交期`、`良率`、`基板`、`PCB材料`、`后道工艺`、`封测`、`晶圆制造`、`混合键合`、`产能`、`涨价`、`供货`、`缺货`、`存储器`
+
+**English：** `semiconductor supply chain`、`chip shortage`、`HBM`、`CoWoS`、`advanced packaging`、`foundry capacity`、`Samsung semiconductor`、`SK Hynix`、`memory supercycle`、`equipment lead time`、`yield rate`、`MLCC`、`substrate`、`PCB materials`、`back-end process`、`chiplet`、`hybrid bonding`、`wafer fabrication`、`DRAM`、`NAND`、`EMIB`、`UCIe`
 
 你还可以在任何半导体相关提问中**显式指定 Jukan 视角**来激活技能：
 
