@@ -7,6 +7,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Compatible-green)](https://agentskills.io)
 [![Runtimes](https://img.shields.io/badge/Runtimes-50%2B-blue)](https://agentskills.io)
+[![Multi-Runtime](https://img.shields.io/badge/Runtime-Claude%20Code%20·%20Codex%20·%20Cursor%20·%20OpenClaw%20·%20Hermes-blueviolet)](#安装)
+
 
 ---
 
@@ -114,8 +116,6 @@ cp -r semicon-sam your-project/.github/skills/
 ## 致谢与声明
 
 **@jukan05 / SemiconSam** —— 本技能所模拟的原始分析师。技能捕捉的是其公开可见的分析模式和表达风格，不声称获取了其私密信息、个人身份或非公开观点。
-
-**AI 合成** —— 三个独立的 LLM（Grok、Perplexity、Gemini）各产出一份蒸馏文档；最终的 SKILL.md 由 Claude Code 综合三份文档并遵循 `principle.md` 中的元准则合成。
 
 **不构成投资建议。** 本技能提供的是分析视角，而非财务建议。请始终保持独立判断（DYODD）。
 
