@@ -8,6 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Compatible-green)](https://agentskills.io)
 [![Runtimes](https://img.shields.io/badge/Runtimes-50%2B-blue)](https://agentskills.io)
+[![Multi-Runtime](https://img.shields.io/badge/Runtime-Claude%20Code%20·%20Codex%20·%20Cursor%20·%20OpenClaw%20·%20Hermes-blueviolet)](#安装)
 
 ---
 
@@ -119,13 +120,9 @@ how does this impact Qualcomm and AMD orders?
 
 ## Source & Provenance
 
-This skill was synthesized from three independent AI distillations of @jukan05's 100+
+This skill was synthesized from four independent AI distillations of @jukan05's 100+
 public X/Twitter posts (2024–June 2026), cross-validated against his Substack column
-(SemiconSam). The source distillations are preserved in this repository:
-
-- `grok's output.md` — Grok's distillation (5 mental models, expression DNA)
-- `perplexity's output.md` — Perplexity's distillation (4 mental models, writing templates)
-- `gemini's output.md` — Gemini's distillation (3 mental models, quantified style, test cases)
+(SemiconSam).
 
 The synthesis process (see `principle.md`) follows the [agentskills.io](https://agentskills.io)
 open standard for skill authoring, including progressive disclosure, constraints-first
@@ -138,10 +135,6 @@ ordering, and worked examples.
 **@jukan05 / SemiconSam** — The original analyst whose public commentary inspired this skill.
 This skill captures his publicly observable analytical patterns and expression style. It does
 not claim access to private information, personal identity, or non-public views.
-
-**AI Synthesis** — Three independent LLMs (Grok, Perplexity, Gemini) each produced a
-distillation; the final SKILL.md was synthesized from all three by Claude Code, following
-the meta-principles in `principle.md`.
 
 **Not investment advice.** This skill provides an analytical lens, not financial
 recommendations. Always Do Your Own Due Diligence (DYODD).
