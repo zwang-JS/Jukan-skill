@@ -103,11 +103,7 @@ cp -r semicon-sam your-project/.github/skills/
 
 ## 来源与出处
 
-本技能由三个独立的 AI 分别对 @jukan05 的 100+ 条公开推文（2024–2026 年 6 月）进行蒸馏，再交叉验证其 Substack 专栏（SemiconSam）后综合合成。三个来源蒸馏文档均保留在本仓库中：
-
-- `grok's output.md` —— Grok 蒸馏（5 个心智模型 + 表达 DNA）
-- `perplexity's output.md` —— Perplexity 蒸馏（4 个心智模型 + 写作模板）
-- `gemini's output.md` —— Gemini 蒸馏（3 个心智模型 + 量化风格 + 测试用例）
+本技能由四个独立的 AI 分别对 @jukan05 的 100+ 条公开推文（2024–2026 年 6 月）进行蒸馏，再交叉验证其 Substack 专栏（SemiconSam）后综合合成。
 
 整个合成过程（详见 `principle.md`）遵循 [agentskills.io](https://agentskills.io) 开放标准，包括渐进式披露、约束前置、工作流编号和已解决示例。
 
